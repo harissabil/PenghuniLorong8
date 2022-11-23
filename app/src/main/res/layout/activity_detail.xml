@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_ipb"
+                android:adjustViewBounds="true"
+                android:maxWidth="180dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_asrama"
+                android:adjustViewBounds="true"
+                android:maxWidth="50dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:id="@+id/garisPemisah"
+            android:layout_width="370dp"
+            android:background="@color/bukan_hitam"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_nama_rv"
+            app:layout_constraintStart_toEndOf="@id/tv_rv"/>
+
+        <ImageView
+            android:id="@+id/tv_detail"
+            android:layout_marginTop="20dp"
+            android:layout_width="118dp"
+            android:layout_height="157.3dp"/>
+
+        <TextView
+            android:id="@+id/tv_detail_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Muhammad Haris Sabil Al Karim"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="G6401221003"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_departemen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="ilmu komputer"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_detail_asal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="medan"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp"/>
+
+        <View
+            android:id="@+id/garisPemisah2"
+            android:background="@color/bukan_hitam"
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_nama_rv"
+            app:layout_constraintStart_toEndOf="@id/tv_rv"/>
+
+        <ImageView
+            android:id="@+id/tv_detail2"
+            android:layout_marginTop="20dp"
+            android:layout_width="118dp"
+            android:layout_height="157.3dp"/>
+
+        <TextView
+            android:id="@+id/tv_detail_nama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Muhammad Haris Sabil Al Karim"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_detail_nim2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="G6401221003"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_departemen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="ilmu komputer"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_asal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="medan"
+            android:gravity="center"
+            android:fontFamily="@font/pregular"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/garisPemisah3"
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/bukan_hitam"
+            app:layout_constraintTop_toBottomOf="@id/tv_nama_rv"
+            app:layout_constraintStart_toEndOf="@id/tv_rv"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
